@@ -1,0 +1,88 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  /* Container */
+  .container {
+    max-width: 700px;
+    margin: auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Headings */
+  h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 2rem;
+  }
+  
+  .highlight {
+    color: #007acc;
+  }
+  
+  .intro {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 1.1rem;
+  }
+  
+  /* Profile Photo */
+  .profile-photo {
+    display: block;
+    margin: 0 auto 20px;
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #007acc;
+  }
+  
+  /* Sections */
+  section {
+    margin-bottom: 30px;
+  }
+  
+  section h2 {
+    color: #007acc;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+  }
+  
+  ul {
+    list-style: disc inside;
+    padding-left: 10px;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  /* Responsive */
+  @media (max-width: 600px) {
+    .container {
+      padding: 20px;
+    }
+  
+    h1 {
+      font-size: 1.5rem;
+    }
+  
+    .intro {
+      font-size: 1rem;
+    }
+  }
+  
