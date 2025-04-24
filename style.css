@@ -134,5 +134,34 @@
       margin: 10px 0;
     }
   }
+  header {
+    background-color: #007acc;
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  nav {
+    margin-top: 10px;
+  }
+  
+  nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  nav a:hover {
+    color: #ffcc00;
+  }
+  
+  @media screen and (max-width: 600px) {
+    nav a {
+      display: block;
+      margin: 10px 0;
+    }
+  }
   
   
