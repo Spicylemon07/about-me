@@ -12,12 +12,12 @@
 <body>
   <header>
     <h1>Hello, I'm Adriane</h1>
-    <nav>
-      <div class="nav"></div>
+    <nav class="nav">
       <a href="index.html">Home</a>
       <a href="projects.html">Projects</a>
     </nav>
   </header>
+  
   
   <div class="container">
     <img src="Ade.png" alt="My Profile Photo" class="profile-photo" />
@@ -85,24 +85,7 @@
     });
   </script>
   
-  <button id="backToTop">↑ Back to Top</button>
-
-<script>
-  const backToTopButton = document.getElementById("backToTop");
-
-  window.onscroll = function () {
-    if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
-      backToTopButton.style.display = "block";
-    } else {
-      backToTopButton.style.display = "none";
-    }
-  };
-
-  backToTopButton.addEventListener("click", function () {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  });
-</script>
-
+  
 </body>
 
 </html>

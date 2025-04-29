@@ -365,3 +365,58 @@ nav a:hover {
     gap: 10px;  /* Less space between links */
   }
 }
+/* Navbar Styles */
+nav {
+  background-color: #007acc;
+  padding: 10px 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #005c99;
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+/* Navigation Bar Styles */
+.nav {
+  display: flex;
+  justify-content: center; /* Centers the links horizontally */
+  gap: 20px; /* Adds space between the links */
+  background-color: #007acc; /* Optional: Adds a background color */
+  padding: 10px 0; /* Optional: Adds vertical padding */
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.nav a:hover {
+  background-color: #005c99;
+}
