@@ -332,3 +332,36 @@
 #backToTop:hover {
   background-color: #005c99;
 }
+/* Navbar Styles */
+nav {
+  background-color: #007acc; /* Add color */
+  padding: 10px 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;  /* Center navbar links */
+  gap: 20px;  /* Space between links */
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #005c99;  /* Change color on hover */
+}
+
+/* Mobile View (optional tweak) */
+@media (max-width: 768px) {
+  .nav {
+    flex-direction: column;  /* Stack links vertically on small screens */
+    gap: 10px;  /* Less space between links */
+  }
+}
