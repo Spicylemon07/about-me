@@ -420,3 +420,57 @@ nav a:hover {
 .nav a:hover {
   background-color: #005c99;
 }
+/* Horizontal NavBar */
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background-color: #007acc;
+  padding: 10px 0;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.nav a:hover {
+  background-color: #005c99;
+}
+.projects {
+  display: grid;
+  gap: 20px;
+  padding: 20px;
+}
+
+.project-card {
+  background-color: #f4f4f4;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-card h3 {
+  margin-top: 0;
+  color: #007acc;
+}
+
+.project-card a {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #007acc;
+  padding: 8px 12px;
+  border-radius: 6px;
+}
