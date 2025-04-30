@@ -474,3 +474,58 @@ nav a:hover {
   padding: 8px 12px;
   border-radius: 6px;
 }
+.project-card {
+  background-color: #f4f4f4;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-card h3 {
+  margin-top: 0;
+  color: #007acc;
+}
+
+.project-card a {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #007acc;
+  padding: 8px 12px;
+  border-radius: 6px;
+}
+@media (max-width: 600px) {
+  .projects {
+    flex-direction: column;
+  }
+}
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.project-card {
+  flex: 1 1 300px;
+  max-width: 300px;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background-color: #f4f4f4;
+  padding: 10px 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #007acc;
+  font-weight: bold;
+}
